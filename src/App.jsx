@@ -26,6 +26,10 @@ function App() {
     setExchangedAmount(Math.round(currencyInfo[to] * amount * 10000000) / 10000000)
   }
 
+  if (amount < 0) {
+    setAmount(0)
+  }
+
   return (
     <div className='flex flex-col justify-center items-center h-screen min-w-96 p-4'>
       <h2 className='text-2xl font-semibold mb-6'>
