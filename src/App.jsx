@@ -36,7 +36,7 @@ function App() {
           <p className='text-gray-400 mb-2'>
             Exchange Rate
           </p>
-          <h2 className='text-3xl font-semibold'>
+          <h2 className='text-3xl font-semibold text-center'>
             {amount} {from} = {exchangedAmount} {to} 
           </h2>
         </div>
