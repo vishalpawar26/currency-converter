@@ -10,7 +10,7 @@ A simple and versatile currency converter web application built with Vite, React
 
 ## Demo
 
-[View Demo](https://vishalpawar26.github.io/currency-converter/) - Insert the link to your live demo here.
+[View Demo](https://vishalpawar26.github.io/currency-converter/)
 
 ## Acknowledgments
    - Exchange Rate data provided by [Exchange Rate API](https://www.exchangerate-api.com/).
