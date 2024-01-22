@@ -12,10 +12,10 @@ function Select({
       <p className='text-gray-500 text-sm'>
         {title}
       </p>
-      <div className='p-2 outline-none bg-white border-2 rounded-md flex gap-2'>
+      <div className='p-2 outline-none border-2 rounded-md flex gap-2'>
         <img src={`https://flagcdn.com/w40/${countryCode}.webp`} alt={countryCode} />
         <select
-          className='outline-none'
+          className='outline-none  bg-white'
           value={selectedCurrency}
           onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
         >
